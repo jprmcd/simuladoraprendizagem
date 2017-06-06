@@ -16,7 +16,7 @@ public class ciclo_simulador{
   }
   public function __construct($nome,$descricao){
     $this->descricao_csm=$descricao_csm;
-    $this_>imagem_csm=$imagem_csm;
+    $this->imagem_csm=$imagem_csm;
   }
   }
 ?>
