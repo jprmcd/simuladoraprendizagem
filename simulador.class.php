@@ -1,3 +1,4 @@
+<?php
 public class simulador{
   private $id_sml;
   private $nome_sml;
@@ -9,5 +10,13 @@ public class simulador{
   public function __get($atrib){
     return$this->$atrib;
   }
-  
+  public function __construct(){
+    $this->nome="";
+    $this->descricao="";
   }
+  public function __construct($nome,$descricao){
+    $this->nome=$nome;
+    $this_>descricao=$descricao;
+  }
+  }
+?>
